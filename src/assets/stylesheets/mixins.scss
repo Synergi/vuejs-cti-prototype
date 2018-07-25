@@ -1,0 +1,15 @@
+@mixin opacity($value) {
+  $IEValue: $value * 100;
+  opacity: $value;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=" + $IEValue +
+    ")";
+  filter: alpha(opacity=$IEValue);
+}
+
+@mixin user-select($value) {
+  -webkit-user-select: $value;
+  -moz-user-select: $value;
+  -ms-user-select: $value;
+  -o-user-select: $value;
+  user-select: $value;
+}

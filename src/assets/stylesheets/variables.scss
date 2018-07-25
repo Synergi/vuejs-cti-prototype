@@ -1,0 +1,29 @@
+$danger-color: #ff4444;
+$danger-color-dark: #cc0000;
+$warning-color: #ffbb33;
+$warning-color-dark: #ff8800;
+$success-color: #00c851;
+$success-color-dark: #007e33;
+$info-color: #33b5e5;
+$info-color-dark: #0099cc;
+$gray-base: #010101;
+$gray-lighter: lighten($gray-base, 78%);
+$brand-primary: #177cd6;
+$brand-danger: #d62417;
+$state-danger-text: #e41c1c;
+
+// Buttons
+$btn-primary-color: #fff;
+$btn-primary-bg: #68d253;
+$btn-primary-border: $btn-primary-bg;
+$btn-success-color: #fff;
+$btn-success-bg: $brand-primary;
+$btn-success-border: $brand-primary;
+$btn-border-radius-base: 0;
+
+// Layout
+$max-content-width: 100%;
+$min-content-width: 200px;
+
+// Forms
+$form-group-margin-bottom: 10px;
